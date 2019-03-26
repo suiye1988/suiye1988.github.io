@@ -1,33 +1,6 @@
 ---
-title: 我的第一篇文章
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
 ---
-
-# {{ page.title }}
-
-## 目录
-+ [第一部分](#partI)
-+ [第二部分](#partII)
-+ [第三部分](#partIII)
-
-----------------------------------
-
-## 第一部分
- 
-
-这里是第一部分的内容
-
-----------------------------------
-
-## 第二部分
- 
-
-这里是第二部分的内容
-
-----------------------------------
-
-## 第三部分
- 
-
-这里是第三部分的内容
-
-{{ page.date|date_to_string }}
