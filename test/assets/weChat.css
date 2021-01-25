@@ -1196,9 +1196,14 @@ ul.game-nav-list li {
 }
 .top h5 {
   color: yellow;
-  font-size: 30px / 2;
-  font-size: 30px;
+  font-size: 40px / 2;
   text-align: center;
+}
+[data-dpr="2"] .top h5 {
+  font-size: 40px;
+}
+[data-dpr="3"] .top h5 {
+  font-size: 60px;
 }
 [data-dpr="2"] .top h5 {
   font-size: 30px;
