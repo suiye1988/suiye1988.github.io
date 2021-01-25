@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* reset */
+html,
+body,
+div,
+span,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* common */
+/* 清除浮动 */
+.clear {
+  clear: both;
+}
+/* 隐藏 */
+.conceal {
+  display: none;
+}
+/* 遮罩 */
+.shade {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+/* 分割线 */
+.split-line {
+  height: 1px;
+  background: #dedede;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+i{
+  font-style: normal;
+}
+
