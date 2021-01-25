@@ -1190,17 +1190,17 @@ ul.game-nav-list li {
   font-size: 18px;
 }
 .top {
-  height: 3.7rem;
+  height: 4.7rem;
   background-image: linear-gradient(to bottom right, red, black);
-  padding: 1.5rem 0.8rem 0 0.8rem;
+  padding: 1rem 0.8rem 0 0.8rem;
 }
 .top h5 {
   color: yellow;
-  font-size: 40px / 2;
+  font-size: 45px;
   text-align: center;
 }
 [data-dpr="2"] .top h5 {
-  font-size: 40px;
+  font-size: 50px;
 }
 [data-dpr="3"] .top h5 {
   font-size: 60px;
