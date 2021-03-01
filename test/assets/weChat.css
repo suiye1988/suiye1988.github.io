@@ -1189,7 +1189,7 @@ ul.game-nav-list li {
 [data-dpr="3"] .set {
   font-size: 18px;
 }
-.top {
+.top{
   height: 4.7rem;
   background: red;
   padding: 1rem 0.8rem 0 0.8rem;
