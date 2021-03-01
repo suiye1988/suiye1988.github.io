@@ -1189,11 +1189,11 @@ ul.game-nav-list li {
 [data-dpr="3"] .set {
   font-size: 18px;
 }
-.top {
+.top {
   height: 4.7rem;
-  background-image: linear-gradient(to bottom right, red, black);
+  background: red;
   padding: 1rem 0.8rem 0 0.8rem;
-}
+ }
 .top h5 {
   color: yellow;
   font-size: 45px;
@@ -1227,13 +1227,13 @@ ul.game-nav-list li {
 }
 .top-list li a {
   color: #fff;
-  font-size: 20px / 2;
+  font-size: 23px / 2;
 }
 [data-dpr="2"] .top-list li a {
-  font-size: 20px;
+  font-size: 23px;
 }
 [data-dpr="3"] .top-list li a {
-  font-size: 30px;
+  font-size: 36px;
 }
 .top-list li:hover {
   opacity: 0.4;
