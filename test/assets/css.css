@@ -5,18 +5,19 @@
 }
 .top p {
     color: yellow;
-    font-size: 40px / 2 !important;
+    font-size: 60px;
     text-align: center;
 }
 [data-dpr="2"] .top p {
-    font-size:60px !important;
+    font-size:80px;
 }
 [data-dpr="3"] .top p {
-    font-size: 60px !important;
+    font-size: 90px;
 }
 .top-list {
     overflow: hidden;
-    margin: 5rem 0.2rem 0.4rem 0.4rem;
+    margin-top: 5rem;
+    margin-left:4%;
 }
 .top-list li {
     float: left;
@@ -25,18 +26,23 @@
     -moz-box-shadow: -8px 2px 5px #333333;
     -webkit-box-shadow: -8px 2px 5px #333333;
     box-shadow: -8px 2px 5px #333333;
-    margin: 0.2rem;
+    margin: 1%;
+    width: 30%;
     border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
 }
 .top-list li a {
     color: #fff;
-    font-size: 36px / 2;
+    font-size: 36px;
+    text-align: center;
 }
 [data-dpr="2"] .top-list li a {
-    font-size: 36px;
+    font-size: 46px;
 }
 [data-dpr="3"] .top-list li a {
-    font-size: 40px;
+    font-size: 50px;
 }
 .top-list li:hover {
     opacity: 0.4;
@@ -46,6 +52,9 @@
     margin-bottom: 0.6rem;
     padding: 0 0.4rem;
     box-sizing: border-box;
+    position: fixed;
+    bottom: .3rem;
+    width: 100%;
 }
 .top-btn button {
     display: block;
@@ -54,17 +63,17 @@
     padding: 0.26rem 0;
     background: green;
     color: #fff;
-    font-size: 34px / 2;
+    font-size: 45px;
     text-align: center;
     border-radius: 5px;
     border: none;
     font-weight: bold;
 }
 [data-dpr="2"] .top-btn button {
-    font-size: 38px;
+    font-size: 50px;
 }
 [data-dpr="3"] .top-btn button {
-    font-size: 39px;
+    font-size: 60px;
 }
 .top-btn:hover {
     opacity: 0.4;
